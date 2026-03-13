@@ -23,7 +23,7 @@ As a PMP-certified PM with a strong B2B telecom background, I am building toward
 
 ## Why Solutions Architecture?
 
-Project managers who understand cloud architecture are rare. Most PMs can manage timelines — very few can speak fluently with engineers about infrastructure decisions, understand the tradeoffs between cloud services, and translate technical complexity into business outcomes. That is the gap I am closing.
+Project managers who understand cloud architecture are rare. Most PMs can manage timelines but very few can speak fluently with engineers about infrastructure decisions, understand the tradeoffs between cloud services, and translate technical complexity into business outcomes. That is the gap I am closing.
 
 **Where this leads:**
 - Cloud Project Manager
