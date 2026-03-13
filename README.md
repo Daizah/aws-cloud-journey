@@ -1,6 +1,6 @@
 # AWS Cloud Journey
 
-Documenting my path through cloud certification and into cloud architecture and technical project management. My goal is not just cloud literacy — it is to build deep expertise as an AWS Solutions Architect and eventually bridge the gap between strategic PM leadership and cloud infrastructure.
+Documenting my path through cloud certification and into cloud architecture and technical project management. My goal is not just cloud literacy; it is to build deep expertise as an AWS Solutions Architect and eventually bridge the gap between strategic PM leadership and cloud infrastructure.
 
 ---
 
