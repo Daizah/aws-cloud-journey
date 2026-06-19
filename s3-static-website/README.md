@@ -21,6 +21,9 @@ access so the site is accessible to anyone on the internet.
 
 ## Screenshots
 
+![S3 Bucket](bucket-screenshot.png)
+![Hosted Website](website-screenshot.png)
+
 ### S3 Bucket (AWS Console)
 ![S3 Bucket](S3 Bucket Screenshot.png)
 
