@@ -22,7 +22,7 @@ access so the site is accessible to anyone on the internet.
 ## Screenshots
 
 ### S3 Bucket (AWS Console)
-![S3 Bucket](bucket-screenshot.png)
+![S3 Bucket](S3-Bucket-screenshot.png)
 
 ### Hosted Website
 ![Hosted Website](website-screenshot.png)
