@@ -28,16 +28,16 @@ allowed access to a development environment but not production.
 ## Screenshots
 
 ### EC2 Instances (Development and Production)
-![EC2 Instances](EC2_Instances.png)
+![EC2 Instances](EC2 Instances.png)
 
 ### IAM JSON Policy
-![JSON Policy](1781901923932_JSON_Policy.png)
+![JSON Policy](1781901923932_JSON Policy.png)
 
 ### IAM Account Alias
-![IAM Alias](1781901923932_IAM_Alias.png)
+![IAM Alias](1781901923932_IAM Alias.png)
 
 ### Stopping the Development Instance
-![Stop Instance](1781901923933_Stop_instance.png)
+![Stop Instance](1781901923933_Stop instance.png)
 
 ## Resources
 - [Nextwork Project Guide](https://learn.nextwork.org/projects/aws-security-iam)
