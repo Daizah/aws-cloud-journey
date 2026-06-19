@@ -21,7 +21,7 @@ public subnet and route table to manage traffic within the VPC.
 - The difference between a default VPC and a custom VPC
 
 ## Screenshots
-!(VPC.png)
+![VPC Console](VPC.png)
 
 ## Resources
 - [Nextwork Project Guide](https://learn.nextwork.org/projects/aws-networks-vpc?track=high)
