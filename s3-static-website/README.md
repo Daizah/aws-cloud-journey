@@ -20,7 +20,12 @@ access so the site is accessible to anyone on the internet.
 - How S3 can serve as a web host without a traditional server
 
 ## Screenshots
-![Nextwork Project](screenshot.png)
+
+### S3 Bucket (AWS Console)
+![S3 Bucket](bucket-screenshot.png)
+
+### Hosted Website
+![Hosted Website](website-screenshot.png)
 
 ## Resources
 - [Nextwork Project Guide](https://learn.nextwork.org/projects/aws-host-a-website-on-s3)
