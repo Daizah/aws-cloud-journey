@@ -87,6 +87,7 @@ Project managers who understand cloud architecture are rare. Most PMs can manage
 
 ## Resources I Am Using
 
+- [Nextwork](https://learn.nextwork.org): hands-on AWS project-based learning
 - [AWS Skill Builder](https://skillbuilder.aws/): official AWS training platform
 - [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/): core foundational course
 - [Stephane Maarek, Udemy](https://www.udemy.com/): highly recommended for both CLF and SAA
