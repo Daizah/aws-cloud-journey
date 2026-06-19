@@ -30,13 +30,13 @@ allowed access to a development environment but not production.
 ![EC2 Instances](EC2_Instances.png)
 
 ### IAM JSON Policy
-![JSON Policy](1781901923932_JSON_Policy.png)
+![JSON Policy](JSON_Policy.png)
 
 ### IAM Account Alias
-![IAM Alias](1781901923932_IAM_Alias.png)
+![IAM Alias](IAM_Alias.png)
 
 ### Stopping the Development Instance
-![Stop Instance](1781901923933_Stop_instance.png)
+![Stop Instance](Stop_instance.png)
 
 ## Resources
 - [Nextwork Project Guide](https://learn.nextwork.org/projects/aws-security-iam)
