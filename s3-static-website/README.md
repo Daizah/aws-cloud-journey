@@ -22,10 +22,10 @@ access so the site is accessible to anyone on the internet.
 ## Screenshots
 
 ### S3 Bucket (AWS Console)
-![S3 Bucket](S3-Bucket-screenshot.png)
+![S3 Bucket](S3 Bucket Screenshot.png)
 
 ### Hosted Website
-![Hosted Website](website-screenshot.png)
+![Hosted Website](Website Screenshot.png)
 
 ## Resources
 - [Nextwork Project Guide](https://learn.nextwork.org/projects/aws-host-a-website-on-s3)
