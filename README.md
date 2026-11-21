@@ -1,117 +1,103 @@
-# AWS Cloud Journey
+# Cloud Journey: AWS, Linux, and Cloud Project Leadership
 
-Documenting my path through cloud certification and into cloud architecture and technical project management. My goal is not just cloud literacy, it is to build deep expertise as an AWS Solutions Architect and eventually bridge the gap between strategic PM leadership and cloud infrastructure.
+![AWS](https://img.shields.io/badge/AWS-Hands--on-FF9900?logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20AlmaLinux-FCC624?logo=linux&logoColor=black)
+![PMP](https://img.shields.io/badge/PMP-Certified-0A66C2)
+![Status](https://img.shields.io/badge/Status-Actively%20Building-2EA44F)
+
+I'm a PMP-certified project manager with an MBA and a background in B2B technology sales (Verizon/Frontier, T-Mobile for Business, AT&T). This repo documents my hands-on path into cloud engineering and architecture, with the goal of leading cloud migrations and infrastructure projects as someone who understands both the business case and the build.
+
+Every project here was built by me, verified, and written up with the commands, screenshots, and lessons learned.
 
 ---
 
-## Vision
+## Projects at a Glance
 
-As a PMP-certified PM with a strong B2B telecom background, I am building toward a career that combines project management, data, and cloud architecture. The combination of delivery expertise and technical cloud knowledge positions me to lead complex cloud migrations, SaaS implementations, and infrastructure projects at a high level.
+### Phase 1: AWS Foundations (self-directed, before bootcamp)
+
+| # | Project | Services | What it proves |
+|---|---|---|---|
+| 1 | [Host a Website on Amazon S3](s3-static-website/) | S3 | Serverless static hosting, bucket policies, public vs private access |
+| 2 | [Build a Custom VPC](vpc-networking/) | VPC, Subnets, Route Tables | Network isolation, CIDR planning, routing |
+| 3 | [Cloud Security with IAM](iam-security/) | IAM, EC2 | Least privilege, tag-based access control, environment separation |
+
+### Phase 2: Cloud Bootcamp (Linux and systems administration)
+
+| # | Project | Tools | What it proves |
+|---|---|---|---|
+| 4 | [Multi-User Web Server](linux-multi-user-web-server/) | nginx, Apache, Ubuntu, AlmaLinux, SELinux | User and permission design across two Linux families |
+| 5 | [Name-Based Virtual Hosts](linux-virtual-hosts/) | nginx server blocks, Apache virtual hosts | Hosting many sites on one server |
+| 6 | [Firewall and SSH Hardening](linux-firewall-hardening/) | ufw, firewalld, nmap, OpenSSH | Default-deny security, external verification |
+| 7 | [Automated Backups](linux-backup-automation/) | Bash, tar, cron, systemd timers | Scripting, scheduling, retention policy |
+
+---
+
+## Skills Demonstrated
+
+| Area | Skills |
+|---|---|
+| **AWS** | S3 static hosting, VPC design (CIDR, subnets, route tables), IAM users, groups, and JSON policies, EC2 launch and tagging |
+| **Security** | Least privilege, tag-based access conditions, explicit deny, firewall default-deny, disabling root SSH, SELinux contexts, Linux file permissions (setgid, 2750/640) |
+| **Linux** | Ubuntu and AlmaLinux (RHEL family), apt and dnf, systemd services and timers, users and groups, `/etc/hosts`, troubleshooting 403 errors |
+| **Web servers** | nginx server blocks, Apache virtual hosts, config testing and reloads |
+| **Automation** | Bash scripting, cron, systemd timers, log and retention management |
+| **Networking** | CIDR blocks, subnets, routing, ports and services, NAT networks, port scanning with nmap |
+| **Project leadership** | Scoping, documentation, verification steps, risk thinking (PMP, PSM) |
 
 ---
 
 ## Certification Roadmap
 
-| Certification | Level | Status | Target Date |
-|---|---|---|---|
-| AWS Certified Cloud Practitioner (CLF-C02) | Foundational | In Progress | 2026 |
-| AWS Solutions Architect Associate (SAA-C03) | Associate | Planned | 2026-2027 |
-| AWS Solutions Architect Professional (SAP-C02) | Professional | Planned | Long-term |
-| Additional: Terraform / Cloud PM Tools | Specialty | Planned | TBD |
+| Certification | Level | Status |
+|---|---|---|
+| PMP (Project Management Professional) | Professional | ✅ Certified |
+| PSM (Professional Scrum Master) | Professional | ✅ Certified |
+| AWS Certified Cloud Practitioner (CLF-C02) | Foundational | In progress |
+| AWS Solutions Architect Associate (SAA-C03) | Associate | Next |
+| AWS Solutions Architect Professional (SAP-C02) | Professional | Long-term goal |
 
 ---
 
-## Why Solutions Architecture?
+## Why Cloud + Project Management
 
-Project managers who understand cloud architecture are rare. Most PMs can manage timelines, very few can speak fluently with engineers about infrastructure decisions, understand the tradeoffs between cloud services, and translate technical complexity into business outcomes. That is the gap I am closing.
+Most project managers can run a timeline. Far fewer can sit with engineers, understand the tradeoffs between services, and translate technical decisions into cost, risk, and business outcomes. That's the gap I'm closing.
 
-**Where this leads:**
-- Cloud Project Manager
-- Technical Program Manager (TPM)
-- Cloud Solutions Architect
-- PM for cloud migrations and SaaS implementations
-- Eventually: independent consulting on cloud transformation projects
-
----
-
-## Study Progress
-
-### Week-by-Week Log
-
-| Week | Topics Covered | Hours | Notes |
-|---|---|---|---|
-| Week 1 | Cloud concepts, AWS global infrastructure | | |
-| Week 2 | IAM, S3, EC2 basics | | |
-| Week 3 | | | |
-
----
-
-## Cloud Practitioner: Key Concepts
-
-### Cloud Fundamentals
-- [ ] What is cloud computing and the shared responsibility model
-- [ ] AWS global infrastructure (Regions, AZs, Edge Locations)
-- [ ] Cloud deployment models: Public, Private, Hybrid
-- [ ] Benefits of cloud: agility, elasticity, cost savings
-
-### Core AWS Services
-- [ ] IAM (Identity and Access Management)
-- [ ] EC2 (Elastic Compute Cloud)
-- [ ] S3 (Simple Storage Service)
-- [ ] RDS and database services
-- [ ] VPC networking basics
-- [ ] CloudWatch monitoring
-- [ ] Lambda (serverless basics)
-
-### Billing & Pricing
-- [ ] AWS pricing models (On-Demand, Reserved, Spot)
-- [ ] AWS Free Tier
-- [ ] Cost Explorer and Budgets
-
----
-
-## Solutions Architect Associate: Topics Ahead
-
-*(To be studied after Cloud Practitioner)*
-
-- [ ] Designing resilient architectures
-- [ ] High availability and fault tolerance
-- [ ] Elastic Load Balancing and Auto Scaling
-- [ ] S3 storage classes and lifecycle policies
-- [ ] Database selection (RDS, DynamoDB, Redshift)
-- [ ] Security architecture and IAM deep dive
-- [ ] Networking (VPC, subnets, route tables, NAT)
-- [ ] Cost optimization strategies
-
----
-
-## Resources I Am Using
-
-- [Nextwork](https://learn.nextwork.org): hands-on AWS project-based learning
-- [AWS Skill Builder](https://skillbuilder.aws/): official AWS training platform
-- [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/): core foundational course
-- [Stephane Maarek, Udemy](https://www.udemy.com/): highly recommended for both CLF and SAA
-- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/): five pillars of good architecture
-- [Adrian Cantrill](https://learn.cantrill.io/): deep dive for Solutions Architect
-
----
-
-## PM + Cloud Connection
-
-Every concept I learn maps back to real project work:
-
-| Cloud Concept | PM Application |
+| Cloud concept | How I apply it as a PM |
 |---|---|
-| Shared Responsibility Model | Clarifying team ownership and accountability |
-| High Availability Design | Risk planning and redundancy in project delivery |
-| Auto Scaling | Resource planning and capacity management |
-| Cost Optimization | Budget management and vendor negotiation |
-| IAM Roles and Policies | Stakeholder access and permissions planning |
-| Monitoring and Alerts | KPI dashboards and project health tracking |
+| Shared responsibility model | Clear ownership and accountability (RACI) |
+| High availability design | Risk planning and redundancy |
+| Least privilege (IAM) | Stakeholder access and permissions planning |
+| Auto scaling | Capacity and resource planning |
+| Cost optimization | Budget management and vendor negotiation |
+| Monitoring and alerts | KPI dashboards and project health tracking |
+| Backups and retention | Business continuity and disaster recovery planning |
+
+**Where this leads:** Cloud Project Manager, Technical Program Manager, Cloud Solutions Architect, and consulting on cloud migrations through my firm, Patterson Strategic Solutions.
 
 ---
 
-## Related Repos
+## What's Next
 
-- [PM Templates Toolkit](https://github.com/Daizah/pm-templates-toolkit)
-- [Volunteer PM Projects](https://github.com/Daizah/volunteer-pm-projects)
+- [ ] Pass AWS Cloud Practitioner
+- [ ] Deploy a web server on EC2 inside my custom VPC (public and private subnets, NAT gateway)
+- [ ] Add HTTPS to the S3 site with CloudFront
+- [ ] Ship backups to S3 instead of local disk
+- [ ] Rebuild one project with Terraform (infrastructure as code)
+
+---
+
+## Learning Resources
+
+- [Nextwork](https://learn.nextwork.org): hands-on AWS projects
+- [AWS Skill Builder](https://skillbuilder.aws/): official AWS training
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- Stephane Maarek (Udemy) and Adrian Cantrill for exam prep
+
+---
+
+## Connect
+
+- **Portfolio:** [github.com/Daizah/pm-portfolio](https://github.com/Daizah/pm-portfolio)
+- **Business:** [Patterson Strategic Solutions](https://pattersonstrategicsolutions.com)
+
+To add a new project, copy [PROJECT_TEMPLATE.md](PROJECT_TEMPLATE.md) into a new folder.
