@@ -1,7 +1,7 @@
 # Cloud Journey: AWS, Linux, and Cloud Project Leadership
 
 ![AWS](https://img.shields.io/badge/AWS-Hands--on-FF9900?logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20AlmaLinux-FCC624?logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-FCC624?logo=linux&logoColor=black)
 ![PMP](https://img.shields.io/badge/PMP-Certified-0A66C2)
 ![Status](https://img.shields.io/badge/Status-Actively%20Building-2EA44F)
 
@@ -25,9 +25,9 @@ Every project here was built by me, verified, and written up with the commands, 
 
 | # | Project | Tools | What it proves |
 |---|---|---|---|
-| 4 | [Multi-User Web Server](linux-multi-user-web-server/) | nginx, Apache, Ubuntu, AlmaLinux, SELinux | User and permission design across two Linux families |
-| 5 | [Name-Based Virtual Hosts](linux-virtual-hosts/) | nginx server blocks, Apache virtual hosts | Hosting many sites on one server |
-| 6 | [Firewall and SSH Hardening](linux-firewall-hardening/) | ufw, firewalld, nmap, OpenSSH | Default-deny security, external verification |
+| 4 | [Multi-User Web Server](linux-multi-user-web-server/) | nginx, Ubuntu, users, groups, permissions | Least-privilege file access for a shared server |
+| 5 | [Name-Based Virtual Hosts](linux-virtual-hosts/) | nginx server blocks, curl, /etc/hosts | Hosting many sites on one server |
+| 6 | [Firewall and SSH Hardening](linux-firewall-hardening/) | ufw, OpenSSH | Default-deny firewall, root login disabled |
 | 7 | [Automated Backups](linux-backup-automation/) | Bash, tar, cron, systemd timers | Scripting, scheduling, retention policy |
 
 ---
@@ -37,11 +37,11 @@ Every project here was built by me, verified, and written up with the commands, 
 | Area | Skills |
 |---|---|
 | **AWS** | S3 static hosting, VPC design (CIDR, subnets, route tables), IAM users, groups, and JSON policies, EC2 launch and tagging |
-| **Security** | Least privilege, tag-based access conditions, explicit deny, firewall default-deny, disabling root SSH, SELinux contexts, Linux file permissions (setgid, 2750/640) |
-| **Linux** | Ubuntu and AlmaLinux (RHEL family), apt and dnf, systemd services and timers, users and groups, `/etc/hosts`, troubleshooting 403 errors |
-| **Web servers** | nginx server blocks, Apache virtual hosts, config testing and reloads |
+| **Security** | Least privilege, tag-based access conditions, explicit deny, firewall default-deny, disabling root SSH, Linux file permissions (setgid, 2750/640) |
+| **Linux** | Ubuntu, apt, systemd services and timers, users and groups, file permissions, `/etc/hosts` |
+| **Web servers** | nginx server blocks, config testing and reloads, testing with curl |
 | **Automation** | Bash scripting, cron, systemd timers, log and retention management |
-| **Networking** | CIDR blocks, subnets, routing, ports and services, NAT networks, port scanning with nmap |
+| **Networking** | CIDR blocks, subnets, routing, ports and services, host-header routing |
 | **Project leadership** | Scoping, documentation, verification steps, risk thinking (PMP, PSM) |
 
 ---
