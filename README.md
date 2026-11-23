@@ -99,5 +99,3 @@ Most project managers can run a timeline. Far fewer can sit with engineers, unde
 
 - **Portfolio:** [github.com/Daizah/pm-portfolio](https://github.com/Daizah/pm-portfolio)
 - **Business:** [Patterson Strategic Solutions](https://pattersonstrategicsolutions.com)
-
-To add a new project, copy [PROJECT_TEMPLATE.md](PROJECT_TEMPLATE.md) into a new folder.
