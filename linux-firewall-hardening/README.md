@@ -80,13 +80,13 @@ ssh root@TARGET_IP
 
 ## Screenshots
 
-| Ubuntu | AlmaLinux |
-|---|---|
-| ![ufw status](screenshots/ufw-status.png) | ![firewalld list-all](screenshots/firewalld-list-all.png) |
-| ![Ubuntu PermitRootLogin](screenshots/ubuntu-permitrootlogin.png) | ![AlmaLinux PermitRootLogin](screenshots/alma-permitrootlogin.png) |
-| ![nmap of Ubuntu from AlmaLinux](screenshots/nmap-ubuntu-from-alma.png) | ![nmap of AlmaLinux from Ubuntu](screenshots/nmap-alma-from-ubuntu.png) |
+Screenshots are from the Ubuntu build.
 
-![Root SSH denied](screenshots/root-ssh-denied.png)
+### ufw rules: default deny, only 22, 80, and 443 allowed
+![ufw status](screenshots/ufw-status.png)
+
+### Root SSH login disabled
+![PermitRootLogin no](screenshots/ubuntu-permitrootlogin.png)
 
 ## ufw vs firewalld
 

@@ -95,11 +95,17 @@ sudo systemctl enable --now backup-www.timer
 | Timer runs it | `systemctl start backup-www.service`, `journalctl -u backup-www.service` | Backup created, logged in the journal |
 
 ## Screenshots
-![Backup script](screenshots/backup-script.png)
-![Backup file and folder permissions](screenshots/backup-test.png)
-![7-day cleanup test](screenshots/cleanup-test.png)
-![cron file and log](screenshots/cron.png)
-![systemd timer and journal](screenshots/systemd-timer.png)
+### Backup created with root-only permissions
+![Backup test](screenshots/backup-test.png)
+
+### 7-day cleanup test
+![Cleanup test](screenshots/cleanup-test.png)
+
+### cron schedule and log
+![cron](screenshots/cron.png)
+
+### systemd timer and journal
+![systemd timer](screenshots/systemd-timer.png)
 
 ## cron vs systemd Timer
 

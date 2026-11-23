@@ -60,12 +60,14 @@ Each request returned the matching site's page from the same server.
 
 ## Screenshots
 
-| | |
+Screenshots are from the Ubuntu + nginx build.
+
+| cafe.test | shop.test |
 |---|---|
 | ![cafe.test](screenshots/cafe-test.png) | ![shop.test](screenshots/shop-test.png) |
-| ![books.test](screenshots/books-test.png) | ![music.test](screenshots/music-test.png) |
 
-![/etc/hosts on each VM](screenshots/hosts-files.png)
+### Enabled server blocks, curl tests, and /etc/hosts
+![Server blocks, curl tests, and hosts file](screenshots/hosts-file.png)
 
 ## nginx vs Apache Comparison
 

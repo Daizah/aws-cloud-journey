@@ -82,12 +82,17 @@ sudo -u www-data touch /var/www/suk/test.txt                        # Permission
 
 ## Screenshots
 
-| Ubuntu + nginx | AlmaLinux + Apache |
-|---|---|
-| ![suk on Ubuntu](screenshots/ubuntu-suk.png) | ![suk on AlmaLinux](screenshots/alma-suk.png) |
-| ![nana on Ubuntu](screenshots/ubuntu-nana.png) | ![nana on AlmaLinux](screenshots/alma-nana.png) |
-| ![monet on Ubuntu](screenshots/ubuntu-monet.png) | ![monet on AlmaLinux](screenshots/alma-monet.png) |
-| ![Ubuntu permission tests](screenshots/ubuntu-permissions.png) | ![AlmaLinux permission tests](screenshots/alma-permissions.png) |
+Screenshots are from the Ubuntu + nginx build.
+
+### Each user's site served by nginx
+| suk.local | nana.local | monet.local |
+|---|---|---|
+| ![suk's site](screenshots/ubuntu-suk.png) | ![nana's site](screenshots/ubuntu-nana.png) | ![monet's site](screenshots/ubuntu-monet.png) |
+
+### Permission tests
+Owner can edit, another user is denied, and the web server can read but not write.
+
+![Permission tests](screenshots/ubuntu-permissions.png)
 
 ## Challenges and Fixes
 
