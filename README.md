@@ -33,18 +33,24 @@ Every project here was built by me, verified, and written up with the commands, 
 | 7 | [Automated Backups](linux-backup-automation/) | Bash, tar, cron, systemd timers | Scripting, scheduling, retention policy |
 | 8 | [Portfolio Site on S3 with a Contact Form](s3-portfolio-website/) | S3, bucket policy, Formspree | Static website hosting, custom error page, public read access, live contact form |
 
-### In Progress: Cloud Bootcamp
+### Completed in Bootcamp (write-ups coming)
 
 | Project | Services |
 |---|---|
 | 2-Tier Website on AWS | EC2, Apache/Nginx, RDS MySQL |
 | Elastic Load Balancer + Auto Scaling | ELB, Auto Scaling, CloudWatch |
-| Route 53 Domain and DNS | Route 53 |
-| SSL/TLS with ACM | ACM, ELB |
+| Domain Registration + DNS Integration | Route 53, ELB |
+| Securing the Website with SSL/TLS | ACM, ELB |
+
+### In Progress: Cloud Bootcamp
+
+| Project | Services |
+|---|---|
 | Containerizing Apps with Docker | Docker, Docker Hub, ECR |
-| Storage with Amazon EBS | EBS, EC2 |
+| Managing Storage with Amazon EBS | EBS, EC2 |
+| Version Control with Git & GitHub | Git, GitHub |
 | Infrastructure as Code | Terraform, CloudFormation |
-| Amazon RDS | RDS MySQL |
+| Provisioning & Managing AWS RDS | RDS MySQL, SQL Workbench |
 
 ---
 
