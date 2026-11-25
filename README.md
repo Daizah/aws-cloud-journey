@@ -6,7 +6,7 @@
 
 I'm building my career as a cloud engineer. This repo documents my hands-on work with AWS and Linux, from my first self-directed projects through a full cloud bootcamp.
 
-Before cloud, I worked in B2B technology sales (Verizon/Frontier, T-Mobile for Business, AT&T) and project management. That background shapes how I build: I think about cost, risk, and the people who depend on the infrastructure, not just whether it runs.
+Before cloud, I worked in B2B technology sales and project management at Fortune 500 telecom companies. That background shapes how I build: I think about cost, risk, and the people who depend on the infrastructure, not just whether it runs.
 
 Every project here was built by me, verified, and written up with the commands, screenshots, and lessons learned.
 
