@@ -1,11 +1,12 @@
-# Cloud Journey: AWS, Linux, and Cloud Project Leadership
+# Cloud Journey: Hands-On AWS and Linux Engineering
 
 ![AWS](https://img.shields.io/badge/AWS-Hands--on-FF9900?logo=amazonaws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-FCC624?logo=linux&logoColor=black)
-![PMP](https://img.shields.io/badge/PMP-Certified-0A66C2)
 ![Status](https://img.shields.io/badge/Status-Actively%20Building-2EA44F)
 
-I'm a PMP-certified project manager with an MBA and a background in B2B technology sales (Verizon/Frontier, T-Mobile for Business, AT&T). This repo documents my hands-on path into cloud engineering and architecture, with the goal of leading cloud migrations and infrastructure projects as someone who understands both the business case and the build.
+I'm building my career as a cloud engineer. This repo documents my hands-on work with AWS and Linux, from my first self-directed projects through a full cloud bootcamp.
+
+Before cloud, I worked in B2B technology sales (Verizon/Frontier, T-Mobile for Business, AT&T) and project management. That background shapes how I build: I think about cost, risk, and the people who depend on the infrastructure, not just whether it runs.
 
 Every project here was built by me, verified, and written up with the commands, screenshots, and lessons learned.
 
@@ -64,7 +65,7 @@ Every project here was built by me, verified, and written up with the commands, 
 | **Web servers** | nginx server blocks, config testing and reloads, testing with curl |
 | **Automation** | Bash scripting, cron, systemd timers, log and retention management |
 | **Networking** | CIDR blocks, subnets, routing, ports and services, host-header routing |
-| **Project leadership** | Scoping, documentation, verification steps, risk thinking (PMP, PSM) |
+| **Delivery** | Scoping, documentation, verification steps, risk management, Agile (PMP, PSM) |
 
 ---
 
@@ -80,11 +81,11 @@ Every project here was built by me, verified, and written up with the commands, 
 
 ---
 
-## Why Cloud + Project Management
+## Engineer First, With Delivery Skills
 
-Most project managers can run a timeline. Far fewer can sit with engineers, understand the tradeoffs between services, and translate technical decisions into cost, risk, and business outcomes. That's the gap I'm closing.
+My focus is the build: designing, deploying, securing, and automating infrastructure. What I add on top is a project management background. I scope work before I start, document as I go, plan for what can fail, and can explain technical tradeoffs to the people paying for them. Over time, that combination is what turns an engineer into the person who leads migrations and technical teams.
 
-| Cloud concept | How I apply it as a PM |
+| Cloud concept | How my delivery background helps |
 |---|---|
 | Shared responsibility model | Clear ownership and accountability (RACI) |
 | High availability design | Risk planning and redundancy |
@@ -94,7 +95,7 @@ Most project managers can run a timeline. Far fewer can sit with engineers, unde
 | Monitoring and alerts | KPI dashboards and project health tracking |
 | Backups and retention | Business continuity and disaster recovery planning |
 
-**Where this leads:** Cloud Project Manager, Technical Program Manager, Cloud Solutions Architect, and consulting on cloud migrations through my firm, Patterson Strategic Solutions.
+**Where this leads:** Cloud Engineer first. From there, leading cloud migrations, growing into a Cloud Solutions Architect role, and consulting through my firm, Patterson Strategic Solutions.
 
 ---
 
