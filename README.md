@@ -33,6 +33,7 @@ Every project here was built by me, verified, and written up with the commands, 
 | 6 | [Firewall and SSH Hardening](linux-firewall-hardening/) | ufw, OpenSSH | Default-deny firewall, root login disabled |
 | 7 | [Automated Backups](linux-backup-automation/) | Bash, tar, cron, systemd timers | Scripting, scheduling, retention policy |
 | 8 | [Portfolio Site on S3 with a Contact Form](s3-portfolio-website/) | S3, bucket policy, Formspree | Static website hosting, custom error page, public read access, live contact form |
+| 9 | [Adding Persistent Storage with Amazon EBS](ebs-volume-storage/) | EC2, EBS, parted, ext4, /etc/fstab | Attaching, partitioning, formatting, and persistently mounting cloud storage |
 
 ### Completed in Bootcamp (write-ups coming)
 
@@ -48,7 +49,6 @@ Every project here was built by me, verified, and written up with the commands, 
 | Project | Services |
 |---|---|
 | Containerizing Apps with Docker | Docker, Docker Hub, ECR |
-| Managing Storage with Amazon EBS | EBS, EC2 |
 | Version Control with Git & GitHub | Git, GitHub |
 | Infrastructure as Code | Terraform, CloudFormation |
 | Provisioning & Managing AWS RDS | RDS MySQL, SQL Workbench |
@@ -59,9 +59,9 @@ Every project here was built by me, verified, and written up with the commands, 
 
 | Area | Skills |
 |---|---|
-| **AWS** | S3 static website hosting with custom error pages, VPC design (CIDR, subnets, route tables), IAM users, groups, and JSON policies, EC2 launch and tagging |
+| **AWS** | S3 static website hosting with custom error pages, VPC design (CIDR, subnets, route tables), IAM users, groups, and JSON policies, EC2 launch and tagging, EBS volumes |
 | **Security** | Least privilege, tag-based access conditions, explicit deny, firewall default-deny, disabling root SSH, Linux file permissions (setgid, 2750/640) |
-| **Linux** | Ubuntu, apt, systemd services and timers, users and groups, file permissions, `/etc/hosts` |
+| **Linux** | Ubuntu, Amazon Linux, apt, systemd services and timers, users and groups, file permissions, `/etc/hosts`, disk partitioning, ext4, mounting and `/etc/fstab` |
 | **Web servers** | nginx server blocks, config testing and reloads, testing with curl |
 | **Automation** | Bash scripting, cron, systemd timers, log and retention management |
 | **Networking** | CIDR blocks, subnets, routing, ports and services, host-header routing |
